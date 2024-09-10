@@ -1620,7 +1620,7 @@ trainer.run(train_loader, max_epochs=config['training']['num_train_epochs'])
 
 ## 6. Result
 
-#### Final - Rank 10
+#### Final - Rank 3
 
 ![UpStage-NLP-Summarization-NLP5-LeaderBoard-Final](./images/UpStage-NLP-Summarization-NLP5-LeaderBoard-Final.png)
 
@@ -1692,7 +1692,7 @@ trainer.run(train_loader, max_epochs=config['training']['num_train_epochs'])
 
 ### Presentation
 
-- - [UpStageAILAB-3rd-Competition-NLP-Summarization-Presentation-TEAM5-20240911.pptx](TBD)
+- - [UpStageAILAB-3rd-Competition-NLP-Summarization-Presentation-TEAM5-20240911.pptx](https://docs.google.com/presentation/d/19L223VQDM724Fta0g4yWIgGJraOKgFw5/edit?usp=sharing&ouid=102302788798357252978&rtpof=true&sd=true)
 
 
 ## etc
