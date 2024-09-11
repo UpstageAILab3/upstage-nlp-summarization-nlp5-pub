@@ -176,7 +176,7 @@ ROUGE 메트릭은 **Precision**(정밀도)과 **Recall**(재현율)의 조화 �
   - presentation : 발표자료
   - reference : 참고자료
 - images : 첨부 이미지
-- README.md : 디지털 보물찾기(Digital Treasure Quest)' 팀의 '문서 타입 분류' 경연 도전기 Readme.md
+- README.md : 디지털 보물찾기(Digital Treasure Quest)' 팀의 '일상대화 요약' 경연 도전기 Readme.md
 
 ## 4. Data description
 
@@ -195,7 +195,7 @@ ROUGE 메트릭은 **Precision**(정밀도)과 **Recall**(재현율)의 조화 �
 #### 검증 데이터
 | **Desc**       | **Details**                          |
 |----------------|--------------------------------------|
-| File name      | train.csv                              |
+| File name      | dev.csv                              |
 | Rows           | 499                                  |
 | Columns        | 3                                    |
 | fname          | 대화 고유 번호                        |
@@ -1620,9 +1620,14 @@ trainer.run(train_loader, max_epochs=config['training']['num_train_epochs'])
 
 ## 6. Result
 
-#### Final - Rank 3
+#### Final(Public) - Rank 3
 
-![UpStage-NLP-Summarization-NLP5-LeaderBoard-Final](./images/UpStage-NLP-Summarization-NLP5-LeaderBoard-Final.png)
+![UpStage-NLP-Summarization-NLP5-LeaderBoard-Final-Public](./images/UpStage-NLP-Summarization-NLP5-LeaderBoard-Final.png)
+
+#### Final(Private) - Rank 7
+
+![UpStage-NLP-Summarization-NLP5-LeaderBoard-Final-Private](./images/UpStage-NLP-Summarization-NLP5-LeaderBoard-Final-Private.png)
+
 
 #### Submit history
 
@@ -1657,7 +1662,7 @@ trainer.run(train_loader, max_epochs=config['training']['num_train_epochs'])
 | lr56wd01gml5...40495      | 백경탁    | 0.5314 | 0.5093         | 0.3331 | 0.2960         | 0.4377 | 0.4019         | 43.4053      | 40.2385              | 2024.09.05 18:42     | Complete |
 | lr56wd01gml5...28035      | 백경탁    | 0.5282 | 0.5112         | 0.3338 | 0.2984         | 0.4381 | 0.4019         | 43.3380      | 40.382
 
-### Mentring history
+### Mentoring history
 
 **멘토링 일시:** 9/9(월) 10:00 ~ 11:00  
 **멘토:** 이가람 멘토님  
